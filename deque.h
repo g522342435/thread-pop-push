@@ -9,7 +9,7 @@ template <class A>
 class G_Queue
 {
 	public:		
-		G_Queue(int uQueSize = 0);	
+		G_Queue(int uQueSize = 0);   //构造函数
 		~G_Queue();
 		bool push(const A &item);    //为生产者线程调用
 		bool pop(A &item);           //为消费者线程调用
